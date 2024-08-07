@@ -2,7 +2,7 @@ import streamlit as st
 import string
 import pandas as pd
 
-datapath="C:/Users/nebiy/Documents/ayder-dash board/fake_data.csv"
+datapath="data/fake_data.csv"
 df=pd.read_csv(datapath)
 
 #rename the columns of the dataset
