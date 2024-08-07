@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 
 
-datapath="C:/Users/nebiy/Documents/ayder-dash board/fake_data.csv"
+datapath="data/fake_data.csv"
 df=pd.read_csv(datapath)
 
 #changing the values into integers
