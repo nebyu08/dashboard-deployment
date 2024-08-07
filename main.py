@@ -2,6 +2,14 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import distribution,relationship,home,heatmap
 
+#set the page configuration
+st.set_page_config(
+    page_title="Ayder Dashboard",
+    page_icon="📋",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 class MultiPage:
     def __init__(self) -> None:
         self.apps=[]

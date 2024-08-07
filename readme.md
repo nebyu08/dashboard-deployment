@@ -7,8 +7,11 @@ this is the project is inits initial developlment and with new features rolling 
 ## how to use this project
 
 *git clone this repo
+
 *install the requirements found in the requirements.txt
+
 *run the code using streamlit run main.py
+
 *enjoy!!
 
  
