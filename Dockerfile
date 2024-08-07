@@ -1,16 +1,16 @@
 FROM python:3.10-slim
 COPY . /app 
 WORKDIR /app
-RUN pip install -r requirements.txt 
+RUN pip install --no-cache-dir -r requirements.txt 
 
 EXPOSE 80
 
-RUN ./streamlit
+RUN mkdir  ~/.streamlit
+
 RUN cp config.toml ~/.streamlit/config.toml
 
-RUN cp credentials.toml ~/.streamlit/credentials.toml
+RUN cp credentials.toml ~/.streamlit/credentials.toml  
 
-ENTRYPOINT [ "streamlit","run" ]
+#ENTRYPOINT [ "streamlit","run" ]
 
-CMD [ "main.py" ]
-
+CMD ["streamlit","run" ,"main.py" ]
