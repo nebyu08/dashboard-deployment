@@ -14,7 +14,7 @@ headless=false
 
 runonsave=false
 
-port=80
+port=8051
 
 enableCORS=false
 
@@ -23,4 +23,4 @@ serverAddress="localhost"
 
 gatherUsageStats=true
 
-serverport=80
+serverport=8051
