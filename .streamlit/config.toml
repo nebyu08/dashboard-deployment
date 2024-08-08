@@ -1,2 +1,7 @@
 [server]
 runonserver=true
+
+[theme]
+base="light"
+color="#000000"    #text color
+font="sans-serif"   #font text
